@@ -17,6 +17,7 @@ class RoundedInputField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFieldContainer(
+      color: drawerTextColor,
       child: TextField(
         onChanged: onChanged,
         cursorColor: kPrimaryColor,
