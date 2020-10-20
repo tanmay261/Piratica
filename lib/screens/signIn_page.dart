@@ -6,7 +6,6 @@ import 'package:PiraticaApp/widgets/constants.dart';
 import 'package:PiraticaApp/widgets/signInContainer.dart';
 import 'package:flutter/material.dart';
 
-
 class SignInPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -45,6 +44,7 @@ class SignInPage extends StatelessWidget {
                     ),
                   ),
                   Container(
+                    
                     margin: EdgeInsets.only(left: 270.0),
                     height: 100.0,
                     width: 100.0,
@@ -78,27 +78,27 @@ class SignInPage extends StatelessWidget {
                           height: 30.0,
                         ),
                         RoundedInputField(
-                          hintText:'Your Email',
-                        onChanged: (value){},
+                          hintText: 'Your Email',
+                          onChanged: (value) {},
                         ),
                         SizedBox(
                           height: 30.0,
                         ),
                         RoundedPasswordField(
-                          
-                          onChanged: (value){},
+                          onChanged: (value) {},
                         ),
                         SizedBox(
                           height: 30.0,
                         ),
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                           children: [
                             GestureDetector(
                               child: Text(
                                 'Forgot Password ?',
                                 style: TextStyle(
-                                  color: Color(0xFF6c63ff),
+                                  color: kPrimaryColor,
+                                  fontSize: 15.0,
                                 ),
                               ),
                               onTap: () {
@@ -106,7 +106,14 @@ class SignInPage extends StatelessWidget {
                               },
                             ),
                             GestureDetector(
-                              child: Text('Sign Up'),
+                              child: Text(
+                                'Sign Up',
+                                style: TextStyle(
+                                  color: kPrimaryColor,
+                                  fontSize: 15.0,
+                                  fontWeight: FontWeight.w400,
+                                ),
+                              ),
                               onTap: () {
                                 print('Sign up page opened');
                               },

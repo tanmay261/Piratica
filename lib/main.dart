@@ -1,5 +1,6 @@
 
 import 'package:PiraticaApp/screens/login_screen.dart';
+import 'package:PiraticaApp/screens/nav_screens.dart';
 import 'package:PiraticaApp/screens/profile_page.dart';
 import 'package:PiraticaApp/screens/signIn_page.dart';
 import 'package:PiraticaApp/screens/home_screen.dart';
@@ -30,8 +31,9 @@ class MyApp extends StatelessWidget {
        HomeScreen.id :(context)=>HomeScreen(),
         'Sign In':(context)=>SignInPage(),
         'Profile':(context)=>ProfilePage(),
+        NavScreen.id:(context)=>NavScreen(),
       },
-      initialRoute:HomeScreen.id,
+      initialRoute:NavScreen.id,
     );
   }
 }

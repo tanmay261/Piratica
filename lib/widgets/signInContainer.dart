@@ -12,9 +12,10 @@ class SignInContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
           child: Container(
+            decoration: BoxDecoration(color: drawerTextColor,borderRadius: BorderRadius.circular(20.0)),
         height: 50.0,
         width: 600.0,
-        color: kPrimaryColor,//Color(0xFF6c63ff)
+        //Color(0xFF6c63ff)
         padding: EdgeInsets.only(left: 15.0),
         child: Row(children: [
           Image.asset(
@@ -25,7 +26,7 @@ class SignInContainer extends StatelessWidget {
           SizedBox(width: 30.0),
           Text(
             text,
-            style: TextStyle(fontSize: 18.0, color: Colors.black, letterSpacing: 1.5),
+            style: TextStyle(fontSize: 18.0, color: kPrimaryColor, letterSpacing: 1.5),
           ),
         ]),
         
