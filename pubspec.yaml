@@ -25,6 +25,8 @@ dependencies:
     sdk: flutter
   flutter_svg:
   material_design_icons_flutter: ^4.0.5345
+  razorpay_flutter: ^1.2.2
+  fluttertoast: ^7.1.1
 
 
   # The following adds the Cupertino Icons font to your application.
