@@ -1,10 +1,11 @@
-import 'package:PiraticaApp/widgets/constants.dart';
-import 'package:flutter/material.dart';
 
+import 'package:flutter/material.dart';
 
 class TextFieldContainer extends StatelessWidget {
   final Widget child;
+  final Color color;
   const TextFieldContainer({
+    this.color,
     Key key,
     this.child,
   }) : super(key: key);
@@ -17,7 +18,7 @@ class TextFieldContainer extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 20, vertical: 5),
       width: size.width * 0.8,
       decoration: BoxDecoration(
-        color: kPrimaryLightColor,
+        color: color,
         borderRadius: BorderRadius.circular(29),
       ),
       child: child,
