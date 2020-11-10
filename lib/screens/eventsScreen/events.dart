@@ -14,7 +14,7 @@ class _EventScreenState extends State<EventScreen> {
   bool isDrawerOpen = false;
   @override
   Widget build(BuildContext context) {
-    Size size = MediaQuery.of(context).size;
+    // Size size = MediaQuery.of(context).size;
     return AnimatedContainer(
       height: double.infinity,
       transform: Matrix4.translationValues(xOffset, yOffset, 0)

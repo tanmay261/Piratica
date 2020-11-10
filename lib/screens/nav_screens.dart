@@ -1,7 +1,10 @@
 
 import 'package:PiraticaApp/screens/eventsScreen/eventHomeScreen.dart';
 import 'package:PiraticaApp/screens/home_screen.dart';
+
+import 'package:PiraticaApp/screens/payments_screen.dart';
 import 'package:PiraticaApp/screens/profile_page.dart';
+import 'package:PiraticaApp/screens/setup.dart';
 import 'package:PiraticaApp/screens/signIn_page.dart';
 import 'package:PiraticaApp/widgets/custom_tab_bar.dart';
 import 'package:flutter/material.dart';
@@ -11,8 +14,7 @@ import 'package:material_design_icons_flutter/material_design_icons_flutter.dart
 class NavScreen extends StatefulWidget {
   NavScreen({Key key}) : super(key: key);
 
-  @override
-    static String id = 'NavScreen';
+  static String id = 'NavScreen';
   _NavScreenState createState() => _NavScreenState();
 }
 
@@ -23,8 +25,9 @@ class _NavScreenState extends State<NavScreen> {
     SignInPage(),
     EventHomeScreen(),
     
-    Scaffold(),
+    Payments(),
     ProfilePage(),
+    Lead(),
   ];
   final List<IconData> _icons = [
     Icons.home,
@@ -33,6 +36,7 @@ class _NavScreenState extends State<NavScreen> {
     MdiIcons.bellOutline,
     Icons.menu,
     MdiIcons.accountOutline,
+    Icons.event,
   ];
   int _selectedIndex = 0;
   @override

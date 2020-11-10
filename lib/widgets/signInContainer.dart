@@ -2,7 +2,6 @@ import 'package:PiraticaApp/widgets/constants.dart';
 import 'package:flutter/material.dart';
 
 class SignInContainer extends StatelessWidget {
-  @override
   final Color ccolor;
   final Color tcolor;
   final String text;
@@ -17,16 +16,18 @@ class SignInContainer extends StatelessWidget {
         width: 600.0,
         //Color(0xFF6c63ff)
         padding: EdgeInsets.only(left: 15.0),
-        child: Row(children: [
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
           Image.asset(
             
             assetLocation,
-            height: 40.0,
+            height: 30.0,
           ),
-          SizedBox(width: 30.0),
+          SizedBox(width: 18.0),
           Text(
             text,
-            style: TextStyle(fontSize: 18.0, color: kPrimaryColor, letterSpacing: 1.5),
+            style: TextStyle(fontSize: 16.0, color: kPrimaryColor, letterSpacing: 1.5),
           ),
         ]),
         

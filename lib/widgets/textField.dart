@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class Text_box extends StatelessWidget {
+class Textbox extends StatelessWidget {
   final String hintText;
   final String labelText;
   final String icon;
-  const Text_box({
+  const Textbox({
     Key key,
     this.hintText,
     @required this.labelText,
