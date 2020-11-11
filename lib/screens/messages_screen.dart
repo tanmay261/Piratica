@@ -11,6 +11,16 @@ class MessageScreen extends StatefulWidget {
 }
 
 class _MessageScreenState extends State<MessageScreen> {
+  _builderMessage(Message message, bool isMe) {
+    return Container(
+      color: isMe ? Theme.of(context).accentColor : Colors.blue[100],
+      child: Text(message.text),
+      margin: isMe
+          ? EdgeInsets.only(top: 8.0, bottom: 8.0, left: 80.0;)
+          : EdgeInsets.only(top: 8.0, bottom: 8.0, right: 80.0),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -51,11 +61,16 @@ class _MessageScreenState extends State<MessageScreen> {
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(20.0),
                       topRight: Radius.circular(20.0)),
-                  child: ListView.builder(
-                    itemCount: messages.length,
-                    itemBuilder: (BuildContext context, int index) {
-                      return Text(messages[index].text);
-                    },
+                  child: Padding(
+                    padding: EdgeInsets.only(top: 20.0),
+                    child: ListView.builder(
+                      itemCount: messages.length,
+                      itemBuilder: (BuildContext context, int index) {
+                        final Message message = messages[index];
+                        final bool isMe = message.sender.id == currentUser.id;
+                        return _builderMessage(message, isMe);
+                      },
+                    ),
                   ),
                 ),
               ),
