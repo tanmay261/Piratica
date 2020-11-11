@@ -7,14 +7,12 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body:Stack(
+      body: Stack(
         children: [
           SizedBox.expand(
-            child:CustomPaint(
-              painter: BackgroundPainter(),
-            )
-          )
-
+              child: CustomPaint(
+            painter: BackgroundPainter(),
+          ))
         ],
       ),
     );

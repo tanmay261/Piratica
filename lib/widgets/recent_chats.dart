@@ -29,7 +29,8 @@ class RecentChats extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => MessageScreen(user:chat.sender)));
+                            builder: (context) =>
+                                MessageScreen(user: chat.sender)));
                   },
                   child: Container(
                     padding:

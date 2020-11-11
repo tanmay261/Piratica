@@ -12,7 +12,6 @@ class _PaymentsState extends State<Payments> {
   int amount = 0;
   @override
   void initState() {
- 
     super.initState();
     _razorpay = Razorpay();
     _razorpay.on(Razorpay.EVENT_PAYMENT_SUCCESS, _handlePaymentSuccess);
@@ -23,7 +22,6 @@ class _PaymentsState extends State<Payments> {
 
   @override
   void dispose() {
-  
     super.dispose();
     _razorpay.clear();
   }

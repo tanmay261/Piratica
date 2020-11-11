@@ -2,7 +2,6 @@ import 'package:PiraticaApp/components/text_field_container.dart';
 import 'package:PiraticaApp/widgets/constants.dart';
 import 'package:flutter/material.dart';
 
-
 class RoundedInputField extends StatelessWidget {
   final String hintText;
   final IconData icon;

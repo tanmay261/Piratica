@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class Lead extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -73,7 +72,7 @@ class Lead extends StatelessWidget {
                         children: [
                           //add here
                           SvgPicture.asset(
-                             'assets/crown.svg',
+                            'assets/crown.svg',
                             height: 70.0,
                           ),
                           CircleAvatar(
@@ -170,8 +169,10 @@ class Lead extends StatelessWidget {
               ],
             ),
           ),
-          Container(height: 20.0,color: Colors.greenAccent,)
-         
+          Container(
+            height: 20.0,
+            color: Colors.greenAccent,
+          )
         ],
       ),
     );

@@ -4,7 +4,7 @@ class SearchPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child:TextField(
+        child: TextField(
       decoration: InputDecoration(
         hintText: 'Search',
       ),

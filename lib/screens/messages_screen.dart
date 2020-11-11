@@ -87,10 +87,11 @@ class _MessageScreenState extends State<MessageScreen> {
             ),
             Expanded(
                 child: TextField(
-                  textCapitalization: TextCapitalization.sentences,
-                  onChanged: (value){},
-                  //input decoration with "collapsed" is used to remove the line below the text field
-              decoration: InputDecoration.collapsed(hintText: 'Send a message..'),
+              textCapitalization: TextCapitalization.sentences,
+              onChanged: (value) {},
+              //input decoration with "collapsed" is used to remove the line below the text field
+              decoration:
+                  InputDecoration.collapsed(hintText: 'Send a message..'),
             )),
             IconButton(
               icon: Icon(Icons.send),
@@ -130,8 +131,8 @@ class _MessageScreenState extends State<MessageScreen> {
         ),
         backgroundColor: kPrimaryColor,
         body: GestureDetector(
-          onTap: ()=>FocusScope.of(context).unfocus(),
-                  child: Column(
+          onTap: () => FocusScope.of(context).unfocus(),
+          child: Column(
             children: [
               Expanded(
                 child: Container(

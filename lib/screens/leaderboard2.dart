@@ -2,7 +2,7 @@ import 'package:PiraticaApp/widgets/constants.dart';
 import 'package:flutter/material.dart';
 
 class Leader extends StatelessWidget {
-  List<Widget> pages = [
+  final List<Widget> pages = [
     Column(
       children: [
         Container(
@@ -10,7 +10,6 @@ class Leader extends StatelessWidget {
           color: Colors.red,
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.end,
-            
             children: [
               CircleAvatar(
                 backgroundImage: NetworkImage(
@@ -33,7 +32,10 @@ class Leader extends StatelessWidget {
             ],
           ),
         ),
-        Container(width: double.infinity,color: Colors.black26,)
+        Container(
+          width: double.infinity,
+          color: Colors.black26,
+        )
       ],
     ),
     Container(

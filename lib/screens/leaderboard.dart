@@ -213,7 +213,6 @@ class PeopleList extends StatelessWidget {
   final String name;
   final String imageUrl;
   Widget build(BuildContext context) {
-    
     return Row(
       children: [
         RowItems(name: 'Azim Premji', time: '1300', index: '4'),

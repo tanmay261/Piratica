@@ -1,4 +1,3 @@
-
 import 'package:PiraticaApp/widgets/category_selector.dart';
 import 'package:PiraticaApp/widgets/constants.dart';
 import 'package:PiraticaApp/widgets/favourite_contacts.dart';

@@ -6,7 +6,7 @@ import 'package:PiraticaApp/widgets/constants.dart';
 import 'package:flutter/material.dart';
 
 class SignInPage extends StatelessWidget {
-    static String id = 'Sign In';
+  static String id = 'Sign In';
   @override
   Widget build(BuildContext context) {
     // Size size = MediaQuery.of(context).size;
@@ -47,7 +47,8 @@ class SignInPage extends StatelessWidget {
                             // SizedBox(
                             //   width: 15.0,
                             // ),
-                            Container(margin: EdgeInsets.only(top:20.0,bottom: 30.0),
+                            Container(
+                              margin: EdgeInsets.only(top: 20.0, bottom: 30.0),
                               child: Text(
                                 'Sign In ',
                                 style: TextStyle(

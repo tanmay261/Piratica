@@ -1,6 +1,5 @@
-
+import 'package:PiraticaApp/screens/chatscreen.dart';
 import 'package:PiraticaApp/screens/eventsScreen/eventHomeScreen.dart';
-import 'package:PiraticaApp/screens/home_screen.dart';
 
 import 'package:PiraticaApp/screens/payments_screen.dart';
 import 'package:PiraticaApp/screens/profile_page.dart';
@@ -19,12 +18,10 @@ class NavScreen extends StatefulWidget {
 }
 
 class _NavScreenState extends State<NavScreen> {
-
   final List<Widget> _screens = [
-    HomeScreen(),
+    ChatScreen(),
     SignInPage(),
     EventHomeScreen(),
-    
     Payments(),
     ProfilePage(),
     Lead(),
@@ -32,7 +29,6 @@ class _NavScreenState extends State<NavScreen> {
   final List<IconData> _icons = [
     Icons.home,
     Icons.ondemand_video,
-    
     MdiIcons.bellOutline,
     Icons.menu,
     MdiIcons.accountOutline,
