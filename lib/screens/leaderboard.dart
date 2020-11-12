@@ -174,7 +174,7 @@ class Leaderboard extends StatelessWidget {
                 // Positioned(
                 //     top: 45.0,
                 //     child: SvgPicture.asset(
-                //       
+                //
                 //       'assets/crown.svg',
                 //       height: 70.0,
                 //     )),

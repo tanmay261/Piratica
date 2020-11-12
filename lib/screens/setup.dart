@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class Lead extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -72,7 +71,7 @@ class Lead extends StatelessWidget {
                         children: [
                           //add here
                           // SvgPicture.asset(
-                          //   
+                          //
                           //   'assets/crown.svg',
                           //   height: 70.0,
                           // ),
