@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
+
 
 class Lead extends StatelessWidget {
   @override
@@ -71,10 +71,11 @@ class Lead extends StatelessWidget {
                         // mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           //add here
-                          SvgPicture.asset(
-                            'assets/crown.svg',
-                            height: 70.0,
-                          ),
+                          // SvgPicture.asset(
+                          //   
+                          //   'assets/crown.svg',
+                          //   height: 70.0,
+                          // ),
                           CircleAvatar(
                             backgroundImage: NetworkImage(
                                 'https://upload.wikimedia.org/wikipedia/commons/f/f8/Ratan_Tata_photo.jpg'),

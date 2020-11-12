@@ -1,6 +1,5 @@
 import 'package:PiraticaApp/widgets/constants.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class Leaderboard extends StatelessWidget {
   static String id = 'Leaderboard';
@@ -172,12 +171,13 @@ class Leaderboard extends StatelessWidget {
                         Text('1550 hrs'),
                       ],
                     )),
-                Positioned(
-                    top: 45.0,
-                    child: SvgPicture.asset(
-                      'assets/crown.svg',
-                      height: 70.0,
-                    )),
+                // Positioned(
+                //     top: 45.0,
+                //     child: SvgPicture.asset(
+                //       
+                //       'assets/crown.svg',
+                //       height: 70.0,
+                //     )),
               ],
             ),
           ),
