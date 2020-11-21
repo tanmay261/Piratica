@@ -28,7 +28,7 @@ class _NavScreenState extends State<NavScreen> {
   ];
   final List<IconData> _icons = [
     Icons.home,
-     Icons.event,
+    Icons.event,
     Icons.ondemand_video,
     MdiIcons.bellOutline,
     Icons.menu,
