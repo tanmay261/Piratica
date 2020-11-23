@@ -16,7 +16,7 @@ class UserProfile {
         'username': username,
         'name': name,
         'profileImage': profileImage,
-      };    
+      };
 }
 
 String generateusername(String email) {
