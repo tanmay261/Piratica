@@ -1,14 +1,12 @@
-
+import 'package:PiraticaApp/screens/chatscreen.dart';
 import 'package:PiraticaApp/screens/eventsScreen/eventHomeScreen.dart';
 import 'package:PiraticaApp/screens/home_screen.dart';
-
-import 'package:PiraticaApp/screens/payments_screen.dart';
+import 'package:PiraticaApp/screens/leaderboard3.dart';
 import 'package:PiraticaApp/screens/profile_page.dart';
 import 'package:PiraticaApp/screens/setup.dart';
 import 'package:PiraticaApp/screens/signIn_page.dart';
 import 'package:PiraticaApp/widgets/custom_tab_bar.dart';
 import 'package:flutter/material.dart';
-
 import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 
 class NavScreen extends StatefulWidget {
@@ -19,20 +17,19 @@ class NavScreen extends StatefulWidget {
 }
 
 class _NavScreenState extends State<NavScreen> {
-
   final List<Widget> _screens = [
+    ChatScreen(),
     HomeScreen(),
     SignInPage(),
     EventHomeScreen(),
-    
-    Payments(),
+    Lead1(),
     ProfilePage(),
     Lead(),
   ];
   final List<IconData> _icons = [
     Icons.home,
+    Icons.event,
     Icons.ondemand_video,
-    
     MdiIcons.bellOutline,
     Icons.menu,
     MdiIcons.accountOutline,

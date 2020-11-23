@@ -1,4 +1,3 @@
-
 import 'package:PiraticaApp/screens/leaderboard.dart';
 
 import 'package:PiraticaApp/screens/nav_screens.dart';
@@ -23,19 +22,17 @@ class MyApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primaryColor: kPrimaryColor,
         brightness: Brightness.light,
-
         primarySwatch: Colors.blue,
-    
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       routes: {
-       HomeScreen.id :(context)=>HomeScreen(),
-        SignInPage.id:(context)=>SignInPage(),
-        ProfilePage.id:(context)=>ProfilePage(),
-        Leaderboard.id:(context)=>Leaderboard(),
-        NavScreen.id:(context)=>NavScreen(),
+        HomeScreen.id: (context) => HomeScreen(),
+        SignInPage.id: (context) => SignInPage(),
+        ProfilePage.id: (context) => ProfilePage(),
+        Leaderboard.id: (context) => Leaderboard(),
+        NavScreen.id: (context) => NavScreen(),
       },
-      initialRoute:NavScreen.id,
+      initialRoute: NavScreen.id,
     );
   }
 }

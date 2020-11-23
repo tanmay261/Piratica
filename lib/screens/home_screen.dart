@@ -1,4 +1,3 @@
-
 import 'package:PiraticaApp/widgets/signInContainer.dart';
 import 'package:flutter/material.dart';
 
@@ -16,13 +15,6 @@ class HomeScreen extends StatelessWidget {
           child: Stack(
             alignment: Alignment.center,
             children: [
-              // Positioned(
-              //     child: SvgPicture.asset(
-              //   'assets/social.svg',
-              //   width: size.width*0.50,
-              //   colorBlendMode: BlendMode.difference,
-
-              // )),
               Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
