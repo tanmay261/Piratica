@@ -1,5 +1,7 @@
+import 'package:PiraticaApp/screens/event_history.dart';
 import 'package:PiraticaApp/screens/leaderboard.dart';
 import 'package:PiraticaApp/screens/profile_page.dart';
+import 'package:PiraticaApp/screens/transaction_history.dart';
 import 'package:flutter/material.dart';
 
 const kPrimaryColor = Color(0xFF112d4e);
@@ -16,14 +18,19 @@ List<Map> drawerItems = [
     'title': 'Account Settings',
     'onTap': ProfilePage.id
   },
-  {'icon': Icons.history, 'title': 'History', 'onTap': Leaderboard.id},
+  {
+    'icon': Icons.history,
+    'title': 'Event History',
+    'onTap':EventHistory.id
+  },
   {
     'icon': Icons.notifications,
+    'title': 'Transaction History',
+    'onTap':TransactionHistory.id
+  },
+  {
+    'icon': Icons.list,
     'title': 'Notification Settings',
     'onTap': Leaderboard.id
   },
-  {'icon': Icons.list, 'title': 'Leaderboard', 'onTap': Leaderboard.id},
-  {'icon': Icons.access_time, 'title': 'Rewards', 'onTap': Leaderboard.id},
-  {'icon': Icons.palette, 'title': 'Goodies', 'onTap': Leaderboard.id},
 ];
-//Color(0xFFc4c0ff)
