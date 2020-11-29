@@ -1,13 +1,13 @@
-import 'package:PiraticaApp/screens/chatscreen.dart';
 import 'package:PiraticaApp/screens/eventsScreen/eventHomeScreen.dart';
-import 'package:PiraticaApp/screens/home_screen.dart';
-import 'package:PiraticaApp/screens/leaderboard3.dart';
 import 'package:PiraticaApp/screens/profile_page.dart';
-import 'package:PiraticaApp/screens/setup.dart';
-import 'package:PiraticaApp/screens/signIn_page.dart';
-import 'package:PiraticaApp/widgets/custom_tab_bar.dart';
+import 'package:PiraticaApp/screens/profiletest.dart';
+
+import 'package:PiraticaApp/widgets/constants.dart';
+
+import 'package:bottom_navy_bar/bottom_navy_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
+
+import 'chatScreen/chatHomeScreen.dart';
 
 class NavScreen extends StatefulWidget {
   NavScreen({Key key}) : super(key: key);
@@ -18,41 +18,67 @@ class NavScreen extends StatefulWidget {
 
 class _NavScreenState extends State<NavScreen> {
   final List<Widget> _screens = [
-    ChatScreen(),
-    HomeScreen(),
-    SignInPage(),
     EventHomeScreen(),
-    Lead1(),
-    ProfilePage(),
-    Lead(),
+    ChatHomeScreen(),
+    // ProfilePage(),
+    ProfileScreen(),
   ];
-  final List<IconData> _icons = [
-    Icons.home,
-    Icons.event,
-    Icons.ondemand_video,
-    MdiIcons.bellOutline,
-    Icons.menu,
-    MdiIcons.accountOutline,
-    Icons.event,
-  ];
+
   int _selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
-    return DefaultTabController(
-        length: _icons.length,
-        child: Scaffold(
-          body: IndexedStack(
-            index: _selectedIndex,
-            children: _screens,
-          ),
-          bottomNavigationBar: Padding(
-            padding: const EdgeInsets.only(bottom: 12.0),
-            child: CustomTabBar(
-              icons: _icons,
+    return Scaffold(
+        body: _screens[_selectedIndex],
+        bottomNavigationBar: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 25.0),
+          child: BottomNavyBar(
+              items: <BottomNavyBarItem>[
+                BottomNavyBarItem(
+                  icon: Icon(Icons.home),
+                  title: Text('Events'),
+                  activeColor: kOtherColor,
+                  inactiveColor: Colors.black,
+                ),
+                BottomNavyBarItem(
+                  icon: Icon(Icons.chat),
+                  title: Text('Messaging'),
+                  activeColor: kOtherColor,
+                  inactiveColor: Colors.black,
+                ),
+                // BottomNavyBarItem(
+                //   icon: Icon(Icons.account_box_rounded),
+                //   title: Text('Profile'),
+                //   activeColor: kOtherColor,
+                //   inactiveColor: Colors.black,
+                // ),
+                BottomNavyBarItem(
+                  icon: Icon(Icons.account_box_rounded),
+                  title: Text('Profile'),
+                  activeColor: kOtherColor,
+                  inactiveColor: Colors.black,
+                ),
+              ],
               selectedIndex: _selectedIndex,
-              onTap: (index) => setState(() => _selectedIndex = index),
-            ),
-          ),
+              onItemSelected: (index) =>
+                  setState(() => _selectedIndex = index)),
         ));
   }
 }
+// Padding(
+//             padding: const EdgeInsets.only(bottom: 12.0),
+//             child: CustomTabBar(
+//               icons: _icons,
+//               selectedIndex: _selectedIndex,
+//               onTap: (index) => setState(() => _selectedIndex = index),
+//             ),
+//           ),
+
+//  final List<IconData> _icons = [
+//     Icons.home,
+//     Icons.event,
+//     Icons.ondemand_video,
+//     MdiIcons.bellOutline,
+//     Icons.menu,
+//     MdiIcons.accountOutline,
+//     Icons.event,
+//   ];

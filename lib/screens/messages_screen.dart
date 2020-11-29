@@ -109,7 +109,9 @@ class _MessageScreenState extends State<MessageScreen> {
         appBar: AppBar(
           leading: IconButton(
             icon: Icon(Icons.arrow_back_ios),
-            onPressed: () {},
+            onPressed: () {
+              Navigator.pop(context);
+            },
           ),
           elevation: 0.0,
           title: Center(
