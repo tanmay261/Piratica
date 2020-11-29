@@ -1,36 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/main.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ChangeListManager">
+    <list default="true" id="30abdec5-140a-4aaf-8a16-0397e4ccf2fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/bug_report.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/ISSUE_TEMPLATE/feature_request.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/dart.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/dart.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/main_dart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PiraticaApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PiraticaApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/PiraticaApp_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/PiraticaApp_android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/kotlin/com/example/PiraticaApp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/kotlin/com/example/PiraticaApp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/drawable/launch_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/profile/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/ios/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/AppFrameworkInfo.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/AppFrameworkInfo.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Base.lproj/Main.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/Runner-Bridging-Header.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/Runner-Bridging-Header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Services/gauth.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Services/gauth.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Utils/SharedPreferences.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Utils/SharedPreferences.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/models/userProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/models/userProfile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/background_painter.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/chatscreen.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/checking.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/drawer_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/drawer_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/eventsScreen/eventHomeScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/eventsScreen/eventHomeScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/eventsScreen/events.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/eventsScreen/events.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/home_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/home_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/leaderboard.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/leaderboard.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/leaderboard2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/leaderboard2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/leaderboard3.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/messages_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/messages_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/nav_screens.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/nav_screens.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/payments_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/payments_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/profile_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/profile_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/search.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/setup.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/setup.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/signIn_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/signIn_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/tester.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/tester.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/category_selector.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/category_selector.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/custom_tab_bar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/custom_tab_bar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/favourite_contacts.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/favourite_contacts.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/recent_chats.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/recent_chats.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/signInContainer.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/signInContainer.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/widgets/textField.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/widgets/textField.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/widget_test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/web/manifest.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <option name="show-excluded-files" value="false" />
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1kxBmO7pyA6OzDi95L3eG04uWtJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="dart.analysis.tool.window.force.activate" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="/usr/lib/dart/bin" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30abdec5-140a-4aaf-8a16-0397e4ccf2fc" name="Default Changelist" comment="" />
+      <created>1606632520154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606632520154</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="172" y="127" width="1648" height="853" key="AVDManager" timestamp="1606637079145">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="172" y="127" width="1648" height="853" key="AVDManager/72.27.1848.1053@72.27.1848.1053" timestamp="1606637079145" />
+    <state x="779" y="314" width="424" height="491" key="FileChooserDialogImpl" timestamp="1606632979542">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="779" y="314" width="424" height="491" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1606632979542" />
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1606633814480">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="485" y="188" width="1022" height="737" key="SettingsEditor/72.27.1848.1053@72.27.1848.1053" timestamp="1606633814480" />
   </component>
 </project>

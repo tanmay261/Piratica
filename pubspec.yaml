@@ -25,9 +25,11 @@ dependencies:
     sdk: flutter
   flutter_svg:
   material_design_icons_flutter: ^4.0.5345
-  
+  device_preview:
+  bottom_navy_bar: ^5.6.0
   #storage
   cloud_firestore: ^0.14.3
+  
   # firebase_storage: ^4.0.0
 
   #authorization
