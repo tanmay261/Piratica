@@ -35,9 +35,8 @@ class MyApp extends StatelessWidget {
         ProfilePage.id: (context) => ProfilePage(),
         Leaderboard.id: (context) => Leaderboard(),
         NavScreen.id: (context) => NavScreen(),
-        EventHistory.id:(context)=>EventHistory(),
-        TransactionHistory.id:(context)=>TransactionHistory(),
-
+        EventHistory.id: (context) => EventHistory(),
+        TransactionHistory.id: (context) => TransactionHistory(),
       },
       initialRoute: NavScreen.id,
     );

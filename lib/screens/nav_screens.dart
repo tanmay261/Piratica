@@ -1,5 +1,5 @@
 import 'package:PiraticaApp/screens/eventsScreen/eventHomeScreen.dart';
-import 'package:PiraticaApp/screens/profile_page.dart';
+
 import 'package:PiraticaApp/screens/profiletest.dart';
 
 import 'package:PiraticaApp/widgets/constants.dart';

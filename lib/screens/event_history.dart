@@ -158,15 +158,24 @@ class EventCard extends StatelessWidget {
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [Text('Rate', style: TextStyle(
-                      fontWeight: FontWeight.w500,
-                      letterSpacing: 2.0,
-                      color: Color(0xFF1E00D6),
-                    ),), Text('Report', style: TextStyle(
-                      fontWeight: FontWeight.w500,
-                      letterSpacing: 2.0,
-                      color: Color(0xFFFF0000),
-                    ),)],
+              children: [
+                Text(
+                  'Rate',
+                  style: TextStyle(
+                    fontWeight: FontWeight.w500,
+                    letterSpacing: 2.0,
+                    color: Color(0xFF1E00D6),
+                  ),
+                ),
+                Text(
+                  'Report',
+                  style: TextStyle(
+                    fontWeight: FontWeight.w500,
+                    letterSpacing: 2.0,
+                    color: Color(0xFFFF0000),
+                  ),
+                )
+              ],
             )
           ],
         ),

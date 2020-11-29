@@ -18,15 +18,11 @@ List<Map> drawerItems = [
     'title': 'Account Settings',
     'onTap': ProfilePage.id
   },
-  {
-    'icon': Icons.history,
-    'title': 'Event History',
-    'onTap':EventHistory.id
-  },
+  {'icon': Icons.history, 'title': 'Event History', 'onTap': EventHistory.id},
   {
     'icon': Icons.notifications,
     'title': 'Transaction History',
-    'onTap':TransactionHistory.id
+    'onTap': TransactionHistory.id
   },
   {
     'icon': Icons.list,

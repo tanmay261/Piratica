@@ -1,6 +1,6 @@
 import 'package:PiraticaApp/screens/chatScreen/chatscreen.dart';
 import 'package:PiraticaApp/screens/drawer_screen.dart';
-import 'package:PiraticaApp/screens/eventsScreen/events.dart';
+
 import 'package:flutter/material.dart';
 
 class ChatHomeScreen extends StatefulWidget {
