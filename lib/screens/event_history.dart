@@ -49,8 +49,7 @@ class EventHistory extends StatelessWidget {
               location: 'California',
               eventName: 'Daily Household Chores',
               eventDescription:
-                  '''You need to perform the daily household chores 
-for a day''',
+                  '''You need to perform the daily household chores for a day''',
               cost: '\$30',
             ),
           ],
@@ -154,7 +153,7 @@ class EventCard extends StatelessWidget {
             ),
             Row(
               crossAxisAlignment: CrossAxisAlignment.center,
-              children: [new Text(eventDescription)],
+              children: [Expanded(child: new Text(eventDescription))],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,

@@ -16,109 +16,109 @@ class _EventScreenState extends State<EventScreen> {
   @override
   Widget build(BuildContext context) {
     // Size size = MediaQuery.of(context).size;
-    return AnimatedContainer(
-      height: double.infinity,
-      transform: Matrix4.translationValues(xOffset, yOffset, 0)
-        ..scale(scaleFactor)
-        ..rotateY(isDrawerOpen ? -0.5 : 0),
-      duration: Duration(milliseconds: 250),
-      decoration: BoxDecoration(
-          color: Colors.grey[200],
-          borderRadius: BorderRadius.circular(isDrawerOpen ? 40 : 0.0)),
-      child: SingleChildScrollView(
-        child: Column(
-          children: [
-            Container(
-              margin: EdgeInsets.symmetric(horizontal: 20),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  isDrawerOpen
-                      ? IconButton(
-                          icon: Icon(Icons.arrow_back_ios),
-                          onPressed: () {
-                            setState(() {
-                              xOffset = 0;
-                              yOffset = 0;
-                              scaleFactor = 1;
-                              isDrawerOpen = false;
-                            });
-                          },
-                        )
-                      : IconButton(
-                          icon: Icon(Icons.menu),
-                          onPressed: () {
-                            setState(() {
-                              xOffset = 230;
-                              yOffset = 150;
-                              scaleFactor = 0.6;
-                              isDrawerOpen = true;
-                            });
-                          }),
-                  Column(
-                    children: [
-                      Text('Location'),
-                      Row(
-                        children: [
-                          Icon(
-                            Icons.location_on,
-                            color: kPrimaryColor,
-                          ),
-                          Text('Ukraine'),
-                        ],
-                      ),
-                    ],
-                  ),
-                  CircleAvatar()
-                ],
+    return SafeArea(
+          child: AnimatedContainer(
+        height: double.infinity,
+        transform: Matrix4.translationValues(xOffset, yOffset, 0)
+          ..scale(scaleFactor)
+          ..rotateY(isDrawerOpen ? -0.5 : 0),
+        duration: Duration(milliseconds: 250),
+        decoration: BoxDecoration(
+            color: Colors.grey[200],
+            borderRadius: BorderRadius.circular(isDrawerOpen ? 40 : 0.0)),
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              Container(
+                margin: EdgeInsets.symmetric(horizontal: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    isDrawerOpen
+                        ? IconButton(
+                            icon: Icon(Icons.arrow_back_ios),
+                            onPressed: () {
+                              setState(() {
+                                xOffset = 0;
+                                yOffset = 0;
+                                scaleFactor = 1;
+                                isDrawerOpen = false;
+                              });
+                            },
+                          )
+                        : IconButton(
+                            icon: Icon(Icons.menu),
+                            onPressed: () {
+                              setState(() {
+                                xOffset = 230;
+                                yOffset = 150;
+                                scaleFactor = 0.6;
+                                isDrawerOpen = true;
+                              });
+                            }),
+                    Column(
+                      children: [
+                        Text('Location'),
+                        Row(
+                          children: [
+                            Icon(
+                              Icons.location_on,
+                              color: kPrimaryColor,
+                            ),
+                            Text('Ukraine'),
+                          ],
+                        ),
+                      ],
+                    ),
+                    CircleAvatar()
+                  ],
+                ),
               ),
-            ),
-            Container(
-              padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
-              margin: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
-              decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(20)),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Icon(Icons.search),
-                  Text('Search Events'),
-                  Icon(Icons.settings)
-                ],
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                margin: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
+                decoration: BoxDecoration(
+                    color: Colors.white, borderRadius: BorderRadius.circular(20)),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Icon(Icons.search),
+                    Text('Search Events'),
+                    Icon(Icons.settings)
+                  ],
+                ),
               ),
-            ),
-            EventCard(
-              imageUrl:
-                  'https://footwearnews.com/wp-content/uploads/2020/11/miley-cyrus-shorts-tights.jpg?w=700&h=437&crop=1',
-              name: 'Miley Cyrus',
-              cost: '\$10',
-              location: 'New York',
-              eventName: 'Get Medicines',
-              eventDescription: 'You need to get medicines from a nearby shop',
-            ),
-            EventCard(
-              cost: '\$100',
-              location: 'Vellore',
-              name: 'Marry Williams',
-              eventName: 'Keep parents busy',
-              eventDescription: '''You need to make three meals of the day
-and keep them busy by talking
-to them for a week''',
-              imageUrl:
-                  'https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2013/08/Williams_author-photo_credit-Jake-Stangel-696x696.jpg',
-            ),
-            EventCard(
-              imageUrl:
-                  'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/JohnDHopper.jpg/220px-JohnDHopper.jpg',
-              name: 'John Hopper',
-              location: 'California',
-              eventName: 'Daily Household Chores',
-              eventDescription:
-                  '''You need to perform the daily household chores 
-for a day''',
-              cost: '\$30',
-            ),
-          ],
+              EventCard(
+                imageUrl:
+                    'https://footwearnews.com/wp-content/uploads/2020/11/miley-cyrus-shorts-tights.jpg?w=700&h=437&crop=1',
+                name: 'Miley Cyrus',
+                cost: '\$10',
+                location: 'New York',
+                eventName: 'Get Medicines',
+                eventDescription: 'You need to get medicines from a nearby shop',
+              ),
+              EventCard(
+                cost: '\$100',
+                location: 'Vellore',
+                name: 'Marry Williams',
+                eventName: 'Keep parents busy',
+                eventDescription:
+                    '''You need to make three meals of the day and keep them busy by talking to them for a week''',
+                imageUrl:
+                    'https://cdn2.atlantamagazine.com/wp-content/uploads/sites/4/2013/08/Williams_author-photo_credit-Jake-Stangel-696x696.jpg',
+              ),
+              EventCard(
+                imageUrl:
+                    'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/JohnDHopper.jpg/220px-JohnDHopper.jpg',
+                name: 'John Hopper',
+                location: 'California',
+                eventName: 'Daily Household Chores',
+                eventDescription:
+                    '''You need to perform the daily household chores for a day''',
+                cost: '\$30',
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -208,7 +208,7 @@ class EventCard extends StatelessWidget {
             ),
             Row(
               crossAxisAlignment: CrossAxisAlignment.center,
-              children: [new Text(eventDescription)],
+              children: [Expanded(child: new Text(eventDescription))],
             ),
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
