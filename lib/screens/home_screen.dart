@@ -1,9 +1,12 @@
+import 'package:PiraticaApp/Services/gauth.dart';
+import 'package:PiraticaApp/responsive/size_config.dart';
+import 'package:PiraticaApp/screens/signIn_page.dart';
 import 'package:PiraticaApp/widgets/signInContainer.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
   static String id = 'Welcome Screen';
-
+  static double tm = SizeConfig.textMultiplier;
   Widget build(BuildContext context) {
     // Size size = MediaQuery.of(context).size;
     return Scaffold(
@@ -22,19 +25,19 @@ class HomeScreen extends StatelessWidget {
                   Text(
                     'Welcome !',
                     style: TextStyle(
-                        fontSize: 30.0,
+                        fontSize: 5 * tm,
                         color: Colors.black,
                         fontWeight: FontWeight.bold),
                   ),
                   SizedBox(
-                    height: 5.0,
+                    height: SizeConfig.textMultiplier,
                   ),
                   Text(
                     'How would you like to Sign Up ?',
-                    style: TextStyle(fontSize: 15.0, color: Colors.black),
+                    style: TextStyle(fontSize: 2.5 * tm, color: Colors.black),
                   ),
                   SizedBox(
-                    height: 70.0,
+                    height: 11.6 * tm,
                   ),
                   Column(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -42,8 +45,16 @@ class HomeScreen extends StatelessWidget {
                       SignInContainer(Colors.blue, 'Continue with Email',
                           Colors.white, 'assets/email.png'),
                       SizedBox(height: 30.0),
-                      SignInContainer(Colors.black, 'Continue with Google',
-                          Colors.white, 'assets/google.png'),
+                      GestureDetector(
+                        onTap: () async {
+                          await signInWithGoogle();
+                        },
+                        child: SignInContainer(
+                            Colors.black,
+                            'Continue with Google',
+                            Colors.white,
+                            'assets/google.png'),
+                      ),
                       SizedBox(height: 30.0),
                       SignInContainer(Colors.green, 'Continue with Apple',
                           Colors.white, 'assets/apple.png'),
@@ -62,7 +73,7 @@ class HomeScreen extends StatelessWidget {
                               decoration: TextDecoration.underline),
                         ),
                         onTap: () {
-                          Navigator.pushNamed(context, 'Sign In');
+                          Navigator.pushNamed(context, SignInPage.id);
                         },
                       )
                     ],
