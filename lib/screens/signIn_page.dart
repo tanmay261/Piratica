@@ -2,6 +2,8 @@ import 'dart:ui';
 
 import 'package:PiraticaApp/components/rounded_input_field.dart';
 import 'package:PiraticaApp/components/rounded_password_field.dart';
+import 'package:PiraticaApp/screens/home_screen.dart';
+import 'package:PiraticaApp/screens/nav_screens.dart';
 import 'package:PiraticaApp/widgets/constants.dart';
 import 'package:flutter/material.dart';
 
@@ -82,7 +84,7 @@ class SignInPage extends StatelessWidget {
                                 style: BorderStyle.solid),
                             borderRadius: BorderRadius.circular(50)),
                         onPressed: () {
-                          Navigator.pushNamed(context, 'Profile');
+                          Navigator.pushNamed(context, NavScreen.id);
                         },
                         child: Text('LOGIN'),
                         color: kPrimaryLightColor,
@@ -119,6 +121,7 @@ class SignInPage extends StatelessWidget {
                             ),
                             onTap: () {
                               print('Sign up page opened');
+                              Navigator.pushNamed(context, HomeScreen.id);
                             },
                           ),
                         ],
