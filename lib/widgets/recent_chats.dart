@@ -9,7 +9,7 @@ class RecentChats extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Expanded(
-          child: Container(
+      child: Container(
         decoration: BoxDecoration(
           color: kPrimaryLightColor,
           borderRadius: BorderRadius.only(

@@ -17,7 +17,7 @@ class _EventScreenState extends State<EventScreen> {
   Widget build(BuildContext context) {
     // Size size = MediaQuery.of(context).size;
     return SafeArea(
-          child: AnimatedContainer(
+      child: AnimatedContainer(
         height: double.infinity,
         transform: Matrix4.translationValues(xOffset, yOffset, 0)
           ..scale(scaleFactor)
@@ -78,7 +78,8 @@ class _EventScreenState extends State<EventScreen> {
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                 margin: EdgeInsets.symmetric(vertical: 30, horizontal: 20),
                 decoration: BoxDecoration(
-                    color: Colors.white, borderRadius: BorderRadius.circular(20)),
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(20)),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
@@ -95,7 +96,8 @@ class _EventScreenState extends State<EventScreen> {
                 cost: '\$10',
                 location: 'New York',
                 eventName: 'Get Medicines',
-                eventDescription: 'You need to get medicines from a nearby shop',
+                eventDescription:
+                    'You need to get medicines from a nearby shop',
               ),
               EventCard(
                 cost: '\$100',
